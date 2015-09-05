@@ -17,6 +17,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.3.3'
+  gem 'guard-rspec', '~> 4.6.4', require: false
+  gem 'spring-commands-rspec'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
